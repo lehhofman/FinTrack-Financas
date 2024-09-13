@@ -22,7 +22,7 @@ https://my.visme.co/view/pvpe8yyo-fintrack
 1. Clone este repositorio e abra com o VsCode:
 
 ```bash
-  git clone https://github.com/Carla-coder/proj1.git
+  https://github.com/lehhofman/FinTrack-Finan-as.git
 ```
 2. Entre na pasta api:
 ```bash
