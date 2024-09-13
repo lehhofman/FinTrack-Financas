@@ -1,0 +1,118 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c2be99; 
+}
+
+.card-title {
+  color: #284767;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px 0px;
+}
+
+.card-text {
+  font-size: 2em;
+}
+
+.text-success {
+  color: #7ebab6 !important; 
+}
+
+.text-danger {
+  color: #376f7b !important; 
+}
+
+.navbar {
+  background-color: #33608d; 
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white; 
+}
+
+.nav-link.active {
+  color: #c2be99;
+}
+
+.table {
+  border: 1px solid #ceceb1; 
+  background-color: #ffffff; 
+}
+
+.table th {
+  background-color: #33608d; 
+  color: #ffffff; 
+}
+
+.table td {
+  color: #284767; 
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ceceb1; 
+}
+
+.btn-primary {
+  background-color: #376f7b; 
+  border-color: #376f7b;
+}
+
+.btn-primary:hover {
+  background-color: #7ebab6; 
+  border-color: #7ebab6;
+}
+.btn-add {
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+  z-index: 1000;
+  background-color: #7ebab6;
+  color: white; 
+  border-radius: 50%; 
+}
+
+.btn-add:hover {
+  background-color: #376f7b;
+}
+
+.modal-content {
+  background-color: #7ebab6;
+  border: 1px solid #c2be99; 
+}
+
+.modal-header, .modal-footer {
+  background-color: #ceceb1;
+}
+
+.form-control{
+  background-color: #dfdfd4;
+}
+
+.form-label{
+  color: #284767;
+  font-weight: bold;
+}
+
+.text-success {
+  color: #226b10 !important; 
+}
+
+.text-danger {
+  color: #c53421 !important; 
+}

@@ -1,0 +1,12 @@
+
+Usuario = id(PK), nome, email(Unique), senha 
+
+Transação = id(PK), data, descrição, categoria, valor, tags, usuarioId(FK Usuario)
+
+Orçamento = Id(PK), categoria, valor usuarioId(FK usuario)
+
+Histórico Orçamento = id(PK), orçamentoId(FK Orçamento), data, valor, status, tipoAjuste
+
+Relatorio = id(PK), usuarioId(FK usuario), tipo dataInicia, dataFi, relatorio, formato
+
+Relatorio json = id(PK), usuarioId(FK Usuario), tipo, dataInicio, dataFim, dados

@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c2be99;
+}
+
+.report-filter {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ceceb1;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #284767;
+}
+
+h5.card-title {
+  color: #284767;
+}
+
+.form-label {
+  color: #284767;
+}
+
+#chartsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table th {
+  background-color: #33608d;
+  color: #ffffff;
+}
+
+.table td {
+  color: #284767;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ceceb1;
+}
+
+.btn-primary {
+  background-color: #376f7b;
+  border-color: #376f7b;
+}
+
+.btn-primary:hover {
+  background-color: #7ebab6;
+  border-color: #7ebab6;
+}
+
+.text-success {
+  color: #7ebab6 !important;
+}
+
+.form-label {
+  color: #284767;
+  font-weight: bold;
+}
+
+.text-success {
+  color: #34a817 !important; 
+}
+
+.text-danger {
+  color: #c53421 !important; 
+}
