@@ -6,7 +6,14 @@ FinTrack é um site e aplicativo de gestão financeira projetado para ajudar os 
 
 https://my.visme.co/view/pvpe8yyo-fintrack
 
-## Tecnologias Utilizadas
+## bibliotecas utilizadas no mobile:
+
+- **chart-kit** = gráficos sem interferencia com a expo.
+- **validator** = validação do usuario.
+- **async-storage** = segurança para o usuario.
+- **picker** = escolhas de categorias.
+
+## Tecnologias Utilizadas:
 
 | Teconologias               | Linguagens |               
 | ----------------- | -------------|
@@ -17,7 +24,7 @@ https://my.visme.co/view/pvpe8yyo-fintrack
   Banco      |   Xampp e Prisma
 | Mobile | React, Yarn, Expo | 
 
-## Instalação Web
+## Instalação Web:
 
 1. Clone este repositorio e abra com o VsCode:
 
@@ -44,7 +51,7 @@ https://my.visme.co/view/pvpe8yyo-fintrack
   nodemon
 ```
 
-## Instalação Mobile
+## Instalação Mobile:
 
 1. Clone este repositorio e abra com o VsCode:
 
@@ -75,7 +82,7 @@ https://my.visme.co/view/pvpe8yyo-fintrack
 ```bash
   yarn start
 ```
-## Documentação de cores
+## Documentação de cores:
 
 | Cor               | Hexadecimal |               
 | ----------------- | -------------|
@@ -85,10 +92,10 @@ https://my.visme.co/view/pvpe8yyo-fintrack
 | Cor 4       |  #376f7b |
   Cor 5       |   #7ebab6
 
-## Protótipo
+## Protótipo:
 
 O protótipo do projeto pode ser visualizado [neste link do Figma](https://www.figma.com/proto/4tw77ZcwhrmvqBoFfoC385/FinTrack?node-id=0-1&t=sBvlsGLJ3tiAyYAH-1).
 
-## Wireframes
+## Wireframes:
 
 ![Wireframe](Img/FinTrack.png)
